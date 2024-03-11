@@ -36,7 +36,7 @@ import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
     private String currentVersion = "1.1.0";
-    private static final String UPDATE_CHECK_URL = "https://www.picoshot.net/update.php1";
+    private static final String UPDATE_CHECK_URL = "https://www.picoshot.net/update.php";
     private WebView myWebView;
 
     @SuppressLint("SetJavaScriptEnabled")
